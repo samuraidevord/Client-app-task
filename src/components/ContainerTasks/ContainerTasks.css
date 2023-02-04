@@ -1,0 +1,64 @@
+.container-tasks-dad {
+    margin: 0 auto;
+    padding: var(--px-20) var(--px-20);
+}
+.title-tasks {
+    font-size: 48px;
+    text-align: center;
+    color: var(--bg-secondary);
+    
+}
+.title-tasks-h2 { 
+    font-size: var(--font-size-title-tasks-h2) !important;
+    text-align: center;
+    color: var(--bg-secondary);
+    margin-top: var(--px-10);
+}
+.container-tasks-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: var(--px-40);
+}
+
+.container-tasks {
+    min-height: var(--min-heigth-container-task);
+    width: var(--width-container-task);
+    border-radius: var(--px-5);
+    box-shadow:  1px 1px 10px 1px var(--bg-secondary);
+    margin-right: var(--px-10);
+    margin-bottom: var(--px-10);
+    padding-bottom: var(--px-20);
+    max-height: var(--heiht-container-tasks);
+    overflow-y: scroll;
+    cursor: pointer;
+    background-color: var(--bg-primary-dark);
+}
+
+
+@media(max-width: 980px) {
+    .container-tasks-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-tasks {
+        width: 70%;
+        margin-right:0px;
+        margin-bottom: var(--px-40);
+    }
+}
+
+@media(max-width: 768px) {
+    .container-tasks {
+        min-height: 500px;
+        width: 80%;
+        
+    }
+}
+@media(max-width: 500px) {
+    .container-tasks {
+        min-height: 500px;
+        width: 90%;
+        
+    }
+}

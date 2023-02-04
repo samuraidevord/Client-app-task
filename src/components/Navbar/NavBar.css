@@ -1,0 +1,30 @@
+nav { 
+    height: var(--height-nav);
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--px-10) var(--px-10);
+    background-color: var(--bg-secondary);
+}
+.title-logo-nav {
+    color: var(--color-button);
+    font-weight: bold;
+    font-size: var(--font-size-nav);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-create-task-nav {
+    height: var(--height-nav);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-top: 0;
+}
+.button-create-task-nav svg {
+    height: 100%;
+    margin-right: var(--px-10);
+}

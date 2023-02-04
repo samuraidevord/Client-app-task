@@ -1,0 +1,78 @@
+
+.container-form-create-task {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background-color: var(--bg-dark);
+    
+}
+.form-create-task {
+    position: absolute;
+    margin: 0 auto;
+    border-radius: var(--px-10);
+    box-shadow:  0px 0px 1px 2px var(--color-border);
+    min-height: var(--height-form);
+    width: var(--width-form);
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: var(--px-10) var(--px-10);
+}
+@media (max-width: 500px) {
+    .form-create-task {
+        width: 80%;
+    }
+}
+.text-form-create-task {
+    font-size: 22px;
+    color:  var(--color-secondary);
+    font-weight: bold;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: var(--px-10) var(--px-10);
+    color: var(--color-secondary);
+}
+.form label,
+.form input {
+    width: 100%;
+    font-weight: bold;
+}
+.form label {
+    margin-bottom: var(--px-5);
+    padding-left: 5px;
+}
+.form input {
+    padding-top: var(--px-10);
+    padding-bottom: var(--px-10);
+    padding-left: var(--px-5);
+    border: none;
+    border: var(--bg-secondary);
+    outline: none;
+    border-bottom: 2px solid var(--color-secondary);
+    margin-bottom: var(--px-10);
+    color: var(--bg-secondary);
+}
+
+.check-radio-button-state {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.check-radio-button-state div:last-child {
+    margin-left: 20px;
+}

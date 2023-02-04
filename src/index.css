@@ -1,0 +1,78 @@
+:root {
+  --bg-dark: rgba(0, 0, 0, 0.917);
+  --bg-primary: #fff;
+  --bg-secondary: rgb(77, 77, 178);
+  --bg-royal-blue: royalblue;
+  --color-royal-blue: royalblue;
+  --bg-primary-dark: #eee;
+  --color-primary: #111;
+  --color-secondary: rgb(77, 77, 178);
+  --color-succes: green;
+  --color-in-process: rgb(207, 207, 50);
+  --color-delete: red;
+  --color-update:rgb(77, 77, 178);
+  --color-button: #fff;
+  --color-border: rgba(193, 188, 188, 0.297);
+  --color-edit-modal: rgba(128, 128, 128, 0.222);
+
+  --heiht-container-tasks: 650px;
+  --height-form: 320px;
+  --width-form: 450px;
+  --px-10: 10px;
+  --px-20: 20px;
+  --px-40: 40px;
+  --px-5: 5px;
+  --font-px: 16px;
+  --width-container: 1920px;
+  --height-nav: 60px;
+  --font-size-nav: 30px;
+  --font-size-title-tasks-h2: 22px;
+  --min-height-task: 100px;
+  --width-task: 320px;
+  --width-container-task: 350px;
+  --min-heigth-container-task: 200px;
+  --height-modal-task: auto;
+  --width-modal-task: 700px;
+  
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: var(--font-px);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: var(--bg-primary-dark);
+  height: 100%;
+  width: 100%;
+  /* background-image: url('../src/assets/pexels-mason-cook-2091399.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: var(--width-container);
+  margin: 0 auto;
+  position: relative;
+}
+
+button {
+  margin-top: var(--px-20);
+  width: 100%;
+  border: none;
+  padding: var(--px-10) var(--px-10);
+  background-color: var(--bg-secondary);
+  color: var(--color-button);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover { 
+  background-color: var(--bg-royal-blue);
+}
